@@ -8,6 +8,9 @@
                                 accesskey: "d" %>
       </li>
     <% end %>
+
+    <%# El código de ahora en adelante está comentado por que @r_echecopar dice que no necesita esto %>
+    <% if false %>
     <li>
       <%= layout_menu_link_to t("layouts.header.proposals"),
                                 proposals_path,
@@ -20,6 +23,8 @@
                                 controller_name == 'proposal_ballots',
                                 accesskey: "v" %>
     </li>
+    <% end %>
+    <%# El código de hasta arriba está comentado por que @r_echecopar dice que no necesita esto %>
     <% if feature?(:spending_proposals) %>
       <li>
         <%= layout_menu_link_to t("layouts.header.spending_proposals"),
@@ -36,5 +41,7 @@
                                   accesskey: "b" %>
       </li>
     <% end %>
+
+    <li><%= link_to "Página estática", "che_escobar" %></li>
   </ul>
 </div>
