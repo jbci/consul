@@ -36,8 +36,10 @@ h1, h3, h4, h5, h6 {
 
 h2{
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333333;
 }
 
 p {
@@ -67,6 +69,7 @@ a {
 .button {
   background: #029791;
   font-size: $base-font-size;
+  border-radius: 30px;
 
   &:hover {
     text-decoration: none !important;
@@ -336,18 +339,30 @@ header {
       a {
         color: white;
         padding-left: 0;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 11px;
 
         @include breakpoint(medium) {
-          font-size: $small-font-size;
+          font-size: 11px;
           padding: rem-calc(11) rem-calc(16);
         }
 
         &.button {
           text-align: left;
+          font-family: 'Raleway', sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-size: 11px;
+          border-radius: 20px;
+          background-color: transparent;
+          color: white;
+          border: 2px solid white;
 
           @include breakpoint(medium) {
-            background: white;
-            color: $brand;
+            background: transparent;
+            color: white;
             text-align: center;
           }
         }
@@ -1084,6 +1099,11 @@ img.avatar, img.admin-avatar, img.moderator-avatar, img.initialjs-avatar {
   float: left;
   margin: $line-height 0;
   position: inherit;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 11px;
+  text-transform: uppercase;
 
   @include breakpoint(medium) {
     float: right;
@@ -1605,6 +1625,8 @@ table {
   h2 {
     margin: 0;
     font-weight: bold;
+    letter-spacing: 1px;
+    color: #333333;
 
     span {
       font-size: rem-calc(18);
