@@ -30,11 +30,17 @@
 
 body {
   font-size: $base-font-size;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   clear: both;
-  font-weight: 700;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 p {
@@ -145,7 +151,7 @@ a {
 }
 
 .highlight {
-  background: $highlight;
+  background: #02B9B4;
 }
 
 .icon-check {
@@ -272,7 +278,7 @@ a {
 // ----------
 
 header {
-  background: $brand;
+  background: #005C7E;
   border-bottom: 1px solid $border;
   margin-bottom: $line-height;
 
@@ -298,7 +304,7 @@ header {
 }
 
 .top-bar {
-  background: $brand !important;
+  background: #005C7E;
   color: white;
   height: $line-height*2;
   line-height: $line-height*2;
