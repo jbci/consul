@@ -108,6 +108,8 @@
     font-weight: bold;
     float: right;
     line-height: $line-height*2;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 
     @include breakpoint(medium) {
       display: block;
@@ -495,10 +497,6 @@
 
   .panel {
     background: white;
-    border: 1px solid;
-    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
-    border-radius: 0;
-    box-shadow: 0px 1px 3px 0 $border;
     margin-bottom: rem-calc(12);
     min-height: rem-calc(192);
     padding: rem-calc(12) rem-calc(12) 0 rem-calc(12);
@@ -538,7 +536,6 @@
     }
 
     h3 {
-      font-weight: bold;
       margin: 0;
 
       a {
@@ -577,13 +574,14 @@
     }
 
     .debate-info, .proposal-info, .investment-project-info, .budget-investment-info {
-      color: $text-medium;
+      color: #02B9B4;
       font-size: $small-font-size;
       margin: rem-calc(6) 0 0;
 
       .icon-comments {
         font-size: rem-calc(16);
         vertical-align: top;
+        color: #02B9B4;
       }
 
       a {
