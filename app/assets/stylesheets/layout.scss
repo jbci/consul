@@ -151,8 +151,11 @@ a {
 }
 
 .highlight {
-  background: #02B9B4;
+  background: url(/assets/welcome.jpg) no-repeat bottom;
   color: white;
+  background-size: cover;
+  min-height: 340px;
+  padding-top: 70px;
 }
 
 .icon-check {
