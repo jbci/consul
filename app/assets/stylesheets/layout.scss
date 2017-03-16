@@ -661,7 +661,7 @@ h2.sidebar-title {
 }
 
 .auth-image {
-  background: $brand image-url("auth_bg.jpg");
+  background: $brand image-url("welcome.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -709,7 +709,7 @@ h2.sidebar-title {
   text-align: center;
 
   span {
-    background: white;
+    background: transparent;
     font-weight: bold;
     padding: 0 $line-height/2;
   }
