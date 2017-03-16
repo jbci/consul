@@ -16,12 +16,15 @@
     <div class="row text-center margin">
       <div class="small-12 medium-4 column">
         <%= image_tag("home-debate.svg") %>
-        <h2>Creamos diálogo</h2>
-
+        <h2><%= layout_menu_link_to 'Creamos diálogo',
+                                        debates_path,
+                                        controller_name == 'debates',
+                                        accesskey: "d" %></h2>
       </div>
+
       <div class="small-12 medium-4 column">
         <%= image_tag("home-participacion.svg")  %>
-        <h2>Creamos participación</h2>
+          <h2><%= link_to "Creamos participación", "/participacion" %></h2>
       </div>
 
       <div class="small-12 medium-4 column">
