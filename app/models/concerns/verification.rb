@@ -23,11 +23,11 @@ module Verification
   end
 
   def residence_verified?
-    residence_verified_at.present?
+    true
   end
 
   def sms_verified?
-    confirmed_phone.present?
+    true
   end
 
   def level_two_verified?
