@@ -1939,3 +1939,21 @@ table {
     }
   }
 }
+
+@media (max-width: 639px) {
+  .subnavigation ul li a{
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .top-bar ul.menu > li a{
+    text-align: center;
+  }
+  .top-bar ul.menu > li a.button{
+    text-align: center;
+  }
+}
