@@ -14,7 +14,7 @@
 <% cache [locale_and_user_status, @featured_debates, @featured_proposals, 'featured'] do %>
   <main>
     <div class="row text-center margin">
-      <div class="small-12 medium-4 column">
+      <div class="small-12 medium-6 column">
         <%= image_tag("/assets/home-debate.svg") %>
         <h2><%= layout_menu_link_to 'Creamos diálogo',
                                         debates_path,
@@ -22,15 +22,11 @@
                                         accesskey: "d" %></h2>
       </div>
 
-      <div class="small-12 medium-4 column">
+      <div class="small-12 medium-6 column">
         <%= image_tag("/assets/home-participacion.svg")  %>
-          <h2><%= link_to "Creamos participación", "/participacion" %></h2>
+          <h2>Creamos participación<br>(Próximamente)</h2>
       </div>
 
-      <div class="small-12 medium-4 column">
-        <%= image_tag("/assets/home-sumate.svg") %>
-        <h2>Súmate</h2>
-      </div>
     </div>
   </main>
 <% end %>
